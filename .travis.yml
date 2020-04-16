@@ -1,10 +1,10 @@
-#dist: bionic
-#arch:
-#- amd64
-#- ppc64le
-os:
+dist: bionic
+arch:
 - amd64
-- linux-ppc64le
+- ppc64le
+#os:
+#- amd64
+#- linux-ppc64le
 language: ruby
 rvm:
 - 2.5.7
